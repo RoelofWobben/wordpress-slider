@@ -1,0 +1,13 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/index.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.fader {
+  opacity: 0;
+  transform: translateY(45px);
+  transition: transform 0.6s, opacity 0.9s;
+}
+.fader.loaded {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0s;
+}
